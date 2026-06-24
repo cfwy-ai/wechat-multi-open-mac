@@ -2,11 +2,34 @@
 
 把给各个微信实例用的图标放这里，让多个微信在程序坞里一眼区分。
 
-## 放什么
+## 图标分类
 
-- `.png`（建议 1024×1024，正方形）或 `.icns` 都行。
-- 起个能看出用途的名字，例如 `work.png`、`life.png`、`alt.png`。
-- 用 Codex / 其它工具生成的图标，直接丢进本目录即可。
+### 基础风格
+
+位于 [`basic/`](./basic/)：
+
+| 图标 | 文件 |
+|---|---|
+| 手绘插画 | [`hand-drawn.png`](./basic/hand-drawn.png) |
+| 赛博朋克 | [`cyberpunk.png`](./basic/cyberpunk.png) |
+| 炫彩渐变 | [`color-gradient.png`](./basic/color-gradient.png) |
+
+### IP 联名风格
+
+位于 [`ip-collaboration/`](./ip-collaboration/)：
+
+| 风格 | 文件 |
+|---|---|
+| 《鬼灭之刃》 | [`demon-slayer.png`](./ip-collaboration/demon-slayer.png) |
+| 《咒术回战》 | [`jujutsu-kaisen.png`](./ip-collaboration/jujutsu-kaisen.png) |
+| 《进击的巨人》 | [`attack-on-titan.png`](./ip-collaboration/attack-on-titan.png) |
+| 《死神》 | [`bleach.png`](./ip-collaboration/bleach.png) |
+| 《海贼王》五档尼卡 | [`one-piece-gear-five.png`](./ip-collaboration/one-piece-gear-five.png) |
+| 《我独自升级》 | [`solo-leveling.png`](./ip-collaboration/solo-leveling.png) |
+
+全部图标均为 1024×1024 PNG。
+
+也可以继续添加 `.png` 或 `.icns` 文件，文件名应能直接看出图标风格或用途。
 
 ## 怎么用上
 
