@@ -44,9 +44,9 @@
 |:---:|:---:|:---:|
 | [<img src="./icons/ip-collaboration/demon-slayer.png" width="220" alt="鬼灭之刃">](./icons/ip-collaboration/demon-slayer.png) | [<img src="./icons/ip-collaboration/jujutsu-kaisen.png" width="220" alt="咒术回战">](./icons/ip-collaboration/jujutsu-kaisen.png) | [<img src="./icons/ip-collaboration/attack-on-titan.png" width="220" alt="进击的巨人">](./icons/ip-collaboration/attack-on-titan.png) |
 
-| 《死神》 | 《海贼王》五档尼卡 | 《我独自升级》 |
+| 《死神》 | 《海贼王》 | 《我独自升级》 |
 |:---:|:---:|:---:|
-| [<img src="./icons/ip-collaboration/bleach.png" width="220" alt="死神">](./icons/ip-collaboration/bleach.png) | [<img src="./icons/ip-collaboration/one-piece-gear-five.png" width="220" alt="海贼王五档尼卡">](./icons/ip-collaboration/one-piece-gear-five.png) | [<img src="./icons/ip-collaboration/solo-leveling.png" width="220" alt="我独自升级">](./icons/ip-collaboration/solo-leveling.png) |
+| [<img src="./icons/ip-collaboration/bleach.png" width="220" alt="死神">](./icons/ip-collaboration/bleach.png) | [<img src="./icons/ip-collaboration/one-piece-gear-five.png" width="220" alt="海贼王">](./icons/ip-collaboration/one-piece-gear-five.png) | [<img src="./icons/ip-collaboration/solo-leveling.png" width="220" alt="我独自升级">](./icons/ip-collaboration/solo-leveling.png) |
 
 更多图标说明见 [`icons/`](./icons/)。
 
