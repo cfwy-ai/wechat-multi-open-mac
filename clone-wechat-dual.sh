@@ -2,7 +2,7 @@
 #
 # clone-wechat-dual.sh —— macOS 微信双开：从原版克隆一个独立 bundle id 的副本
 #
-# 原理（详见 README.md 第 3 章）：
+# 原理（详见 GUIDE.md 第 3 章）：
 #   微信运行时从自己的 Info.plist 读取 CFBundleIdentifier，据此选数据目录、铸设备身份并上报腾讯。
 #   改副本的 CFBundleIdentifier -> 独立数据目录 -> 独立 device_uuid_0 -> 服务器视作两台设备 -> 两账号同时在线。
 #   唯一在功能上起作用的改动就是 CFBundleIdentifier；ad-hoc 重签只是因为改了 Info.plist 必须重签才能启动。
@@ -23,7 +23,7 @@ SRC_APP="${SRC_APP:-/Applications/WeChat.app}"        # 原版微信（保持不
 DST_APP="${DST_APP:-/Applications/WeChat2.app}"       # 要生成的副本
 SECOND_ID="${SECOND_ID:-com.tencent.xinWeChat2}"      # 副本的新 bundle id（必须与原版不同）
 SECOND_NAME="${SECOND_NAME:-WeChat2}"                 # 副本 CFBundleName；单独改它不改程序坞显示名（微信本地化 InfoPlist.strings 会盖掉），真正改名见 GUIDE §10
-DISABLE_AUTOUPDATE="${DISABLE_AUTOUPDATE:-1}"         # 1=尽力关闭副本 Sparkle 自动检查（见 README 6.2）
+DISABLE_AUTOUPDATE="${DISABLE_AUTOUPDATE:-1}"         # 1=尽力关闭副本 Sparkle 自动检查（见 GUIDE §6.2）
 
 PLIST="${DST_APP}/Contents/Info.plist"
 
@@ -92,5 +92,5 @@ cat <<EOF
   xxd ~/Library/Containers/${SRC_ID}/Data/Documents/app_data/radium/device_uuid_0
   xxd ~/Library/Containers/${SECOND_ID}/Data/Documents/app_data/radium/device_uuid_0   # 应与上面不同
 
-注意：原版微信升级后副本可能失效（详见 README 6.2），届时重跑本脚本即可，数据目录不受影响。
+注意：原版微信升级后副本可能失效（详见 GUIDE §6.2），届时重跑本脚本即可，数据目录不受影响。
 EOF

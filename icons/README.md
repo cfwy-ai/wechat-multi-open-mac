@@ -24,7 +24,7 @@
 | 《咒术回战》 | [`jujutsu-kaisen.png`](./ip-collaboration/jujutsu-kaisen.png) |
 | 《进击的巨人》 | [`attack-on-titan.png`](./ip-collaboration/attack-on-titan.png) |
 | 《死神》 | [`bleach.png`](./ip-collaboration/bleach.png) |
-| 《海贼王》五档尼卡 | [`one-piece-gear-five.png`](./ip-collaboration/one-piece-gear-five.png) |
+| 《海贼王》 | [`one-piece-gear-five.png`](./ip-collaboration/one-piece-gear-five.png) |
 | 《我独自升级》 | [`solo-leveling.png`](./ip-collaboration/solo-leveling.png) |
 
 全部图标均为 1024×1024 PNG。
