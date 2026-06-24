@@ -22,7 +22,7 @@ set -euo pipefail
 SRC_APP="${SRC_APP:-/Applications/WeChat.app}"        # 原版微信（保持不动）
 DST_APP="${DST_APP:-/Applications/WeChat2.app}"       # 要生成的副本
 SECOND_ID="${SECOND_ID:-com.tencent.xinWeChat2}"      # 副本的新 bundle id（必须与原版不同）
-SECOND_NAME="${SECOND_NAME:-WeChat2}"                 # 副本的 CFBundleName（仅用于区分显示）
+SECOND_NAME="${SECOND_NAME:-WeChat2}"                 # 副本 CFBundleName；单独改它不改程序坞显示名（微信本地化 InfoPlist.strings 会盖掉），真正改名见 GUIDE §10
 DISABLE_AUTOUPDATE="${DISABLE_AUTOUPDATE:-1}"         # 1=尽力关闭副本 Sparkle 自动检查（见 README 6.2）
 
 PLIST="${DST_APP}/Contents/Info.plist"
